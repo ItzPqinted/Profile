@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+<head>
+   <link rel="icon" href="images/portfolio/iconprof.jpeg">
+
+   <meta name="viewport" content="width=device-width, height=device-height">
+
+   <title>About this Website</title>
+</head>
+
+<style type="text/css">
+
+@media (max-width:720px) {
+   #main {
+   -moz-column-count: 1;
+   -webkit-column-count: 1;
+   column-count: 1;
+   }
+   aside{
+      -webkit-column-break-before: always;
+      break-before: always;
+   }
+}
+
+   #p1-heading{
+      text-align: center;
+      color: rgb(244, 255, 149);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      size: 7px;
+   }
+
+   #p2-first-para{
+        border : 5px solid rgb(255, 255, 255);
+        padding: 40px;
+        height :max-content;
+        overflow:auto;
+        color : blanchedalmond;
+        font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        text-align: center;
+        font-size: 20px;
+        position :absolute;
+        color:rgb(255, 136, 0);
+        background-color : rgb(24, 24, 24);
+}
+
+   #scroll-to-top{
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: rgb(9, 255, 0);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   #scroll-to-top:hover{
+      background-color:rgb(0, 0, 0);
+      color: rgb(21, 255, 0);
+   }
+
+   .navbar {
+   overflow: hidden;
+   background-color: #333;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.navbar a {
+   display: inline-block;
+   color: #74d46b;
+   text-align: center;
+   padding: 15px 100px;
+   text-decoration: none;
+   font-size: 17px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar a:hover {
+   background: #ffffff;
+   color: rgb(0, 0, 0);
+}
+
+.navbar a.active {
+   background-color: #04AA6D;
+   color: white;
+}
+
+   #dont-know-this {
+
+-webkit-animation: fadein 1s; 
+   -moz-animation: fadein 1s; 
+    -ms-animation: fadein 1s; 
+     -o-animation: fadein 1s; 
+        animation: fadein 1s;
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+</style>
+
+<body style="background-color: rgb(24, 24, 24);" id="dont-know-this">
+
+    <h3 id="p1-heading"> 
+        How is this website created? Who hosts it? What programming languages are used?<br><br>
+        You will get to know all about it below!
+    </h3>
+
+   <div id="p2-first-para">
+
+   <span>
+        <strong style="color: rgb(255, 136, 0); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; ">First things first, let's talk about the programming languages used here.</strong><br><br>
+        For this website, the main language used here is <strong>HTML 5</strong> obviously. It's styled by <strong>CSS 3</strong>. <strong>JavaScript</strong> is used for scroll-to-top function.
+        Games <a style="color: rgb(9, 255, 0);" href="games.html" target="_blank">here</a> are created by JavaScript with <a style="color: gold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;"href="https://p5js.org/" target="_blank">P5.JS Library</a> along with <a style="color: gold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;"href="http://brm.io/matter-js/" target="_blank">Matter.JS Library</a>. 
+        <br>In Online games, <a style="color: rgb(255, 0, 212); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" href="https://console.firebase.google.com/" target="_blank">Google's Firebase Console</a> is used for realtime synchronisation.   <br><br>  
+   </span>
+
+   <span style="color: palegreen; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <strong style="font-size:35px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:palegreen;">How is this website hosted?</strong><br><br>
+        This website is... I won't call it 'hosted' but, let me simplify this a bit.<br>
+        As you can see, in the link address there's a domain <strong>GitHub</strong>. Check it out <a style="color: rgb(0, 162, 255); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: inherit;" href="https://github.com/" target="_blank">Github Community</a>. <br>
+        The files of this website are commited and uploaded to <strong>GitHub</strong> and GitHub Pages are used to share this output as a share-able link. As simple as that, only those who have this link can view this website. You won't be able to search this website on google, there's no such possible way. <br>
+        Obviously, anyone can do this.
+   </span> <br><br>
+
+   <span style="color: khaki;">
+        <strong style="color: khaki; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">Can you tell me more about this website?</strong><br><br>
+        This website is <strong>quite Static</strong>. <br>
+        There is no such back-end thing here. So, your privacy is protected. No one (even me) know(s) who checked this website out. But, here in <a style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: chartreuse; " href="onlinegames.html">Online Games</a> the information you are supposed to specify can be read by me obviously, as I have to reset infromation after playing and I have to monitor my database once a week. Rest of the things, I have no idea who's viewing this website. Hence, loading is much more faster (if you've noticed). <br>
+        <a style="color: rgb(255, 174, 0); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" href="index.html">This Page</a> or the <strong>Index</strong> is the homepage, while this is a webpage. <br><br>
+   </span>
+
+   <span style="text-align-last: left; color: lightblue;">
+        <br><br>
+        <strong style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: lightblue;">Some Statistics about this website</strong><br>
+        This website took about 7 days (average 5-6 hours per day) for this over-all output. Structuring took about 3 days, while styling and additional adjustments and accessories took about other 3-4 days. <br>
+        I started developing this on <strong>30th April, 2021</strong> and commited it to Github at <strong>5th April, 2021</strong>, well, I didn't release the <strong>Mobile Browser Support</strong> during that time.<br>
+        <br>Ofcourse, I developed and designed this website. Thanks to this book : <br><strong>Mastering HTML, CSS & JavaScript Web Publishing <cite>by Laura Lemay, Rafe Colburn and Jennifer Kyrnin of SAMS Teach Yourself Series.</cite></strong><br>
+        and also to these websites : <strong><a style="color:rgb(14, 165, 0)" href="https://www.w3schools.com/">w3Schools</a></strong> and <strong><a style="color:orange;" href="https://stackoverflow.com/">Stack Overflow</a></strong>. <br><br>
+        Website Version : 2.02.53 (Mobile Browser Support)
+        <br><br><br><br><br><br>
+   </span>
+
+   </div>
+
+   <div class="navbar">
+      <span id="dont-know-this">
+          <a href="index.html">Go back to Index</a>
+          <a href="games.html">Play a Game</a>
+          <a href="aboutme.html">About Me</a>
+      </span>
+  </div>
+
+   <button onclick="topFunction()" id="scroll-to-top" title="Go to top">Scroll to top</button>
+
+      <script>
+         var mybutton = document.getElementById("scroll-to-top");
+         
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 60) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         function topFunction() {
+           document.body.scrollTop = 10;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+      
+</body>
+</html>
