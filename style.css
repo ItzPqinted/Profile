@@ -212,3 +212,54 @@ background-color:black; }
    100% {
      left: 107%;
      right: -8%; } }
+
+   .github-style{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        text-shadow: #ffffff;
+        text-rendering: optimizeSpeed;
+    }
+
+    .github-style:hover {
+        color: rgb(160, 160, 160);
+    }
+
+    .about-me{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color:burlywood;
+        text-decoration: none;
+        text-rendering: optimizeSpeed;
+    }
+
+    .about-me:hover {
+        color: cornsilk;
+    }
+
+    .play-a-game{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: rgb(251, 255, 0);
+        text-decoration: none;
+        text-shadow: #ffffff;
+        text-rendering: optimizeSpeed;
+    }
+
+    .play-a-game:hover{
+        color: #ffffb0;
+    }
+
+    .about-site{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: rgb(0, 119, 255);
+        text-decoration: none;
+        text-shadow: #ffffff;
+        text-rendering: optimizeSpeed;
+    }
+    
+    .about-site:hover{
+        color: rgb(121, 190, 255);
+    }
