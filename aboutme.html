@@ -31,13 +31,40 @@
         border: 5px lightcyan;
     }
     
-   #dont-know-this {
+   #about-me-fade {
 
 -webkit-animation: fadein 1s; 
    -moz-animation: fadein 1s; 
     -ms-animation: fadein 1s; 
      -o-animation: fadein 1s; 
         animation: fadein 1s;
+}
+
+    .name-fade {
+
+-webkit-animation: fadein 3s; 
+   -moz-animation: fadein 3s; 
+    -ms-animation: fadein 3s; 
+     -o-animation: fadein 3s; 
+        animation: fadein 3s;
+}
+
+    .lol-what-ok {
+
+-webkit-animation: fadein 5s; 
+   -moz-animation: fadein 5s; 
+    -ms-animation: fadein 5s; 
+     -o-animation: fadein 5s; 
+        animation: fadein 5s;
+}
+
+    .hmmmm-ok {
+
+-webkit-animation: fadein 7s; 
+   -moz-animation: fadein 7s; 
+    -ms-animation: fadein 7s; 
+     -o-animation: fadein 7s; 
+        animation: fadein 7s;
 }
 
 @keyframes fadein {
@@ -69,25 +96,27 @@ to   { opacity: 1; }
 
 </head>
 
-<body style="background-color: black;" id="dont-know-this">
+<body style="background-color: black; user-select: none;">
 
+    <div id="about-me-fade">
     <header id="header">
         About Me
     </header>
+    </div>
 
-    <div id="about-this-guy-font">
-        <span style="color: rgb(255, 203, 126);">
-            Daksh Naik (aka Dakshee)<br>
-            DOB: July 2006 <br><br>
-            From <strong style="color: rgb(208, 200, 0);">Goa, India</strong><br><br><br>
+    <div id="about-this-guy-font" class="name-fade">
+        <span style="color: rgb(255, 175, 56);">
+            Daksh Naik (aka Dakshee)
+            <p style="color: rgb(163, 255, 163);"><strong style="color: rgb(181, 255, 181);">DOB: July 2006</strong></p><br><br>
+            From <strong style="color: rgb(255, 195, 82);">Goa, India</strong><br><br><br>
         </span>
         
-        <span>
-            <br>Intermediate in <strong style="color: rgb(78, 78, 255); font-size: 22px;">JavaScript's </strong>P5.JS, Matter.JS and Google Firebase Console : Realtime Database.<br>
+        <span class="lol-what-ok">
+            <br>Intermediate in <strong style="color: rgb(78, 78, 255); font-size: 22px;">JavaScript's </strong>P5.PLAY.JS, Matter.JS and Google Firebase Console : Realtime Database.<br>
             <strong style="color: rgb(78, 78, 255); font-size: 22px;">HTML 5</strong> and <strong style="color: rgb(79, 79, 255); font-size: 22px;">CSS 3</strong>.<br><br><br>
         </span>
 
-        <cite style="color: lemonchiffon;">
+        <cite style="color: rgb(255, 252, 228);" class="hmmmm-ok">
             "Your Journey will begin only if you take a step."<br><br><br><br><br><br><br>
         </cite>
         
