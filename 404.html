@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/portfolio/profilio.jpeg">
+
+    <title>Error 404 - Not Found!</title>
+</head>
+
+<style type="text/css">
+
+    #p1-header{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(231, 157, 60);
+        text-align: center;
+        user-select: none;
+}
+
+    .button {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(153, 255, 0);
+        align-content: center;
+    }
+
+    .button:hover{
+        background-color: black;
+        color: rgb(153, 255, 0);
+    }
+
+    #dont-know-this {
+
+-webkit-animation: fadein 1s; 
+   -moz-animation: fadein 1s; 
+    -ms-animation: fadein 1s; 
+     -o-animation: fadein 1s; 
+        animation: fadein 1s;
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+</style>
+<body style="background-color: black;" id="dont-know-this">
+
+    <header id="p1-header" style="font-size: 30px;">
+        <br>
+        <h1>Error 404 : Page not found!</h1>
+        Wait, seems like you're lost. <br><br><br>
+        Let me help you :<br><br>
+        <button onclick="goBack()" class="button">Go Back</button>
+    </header>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+
+</html>
