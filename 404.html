@@ -5,10 +5,9 @@
 <head>
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/portfolio/profilio.jpeg">
 
-    <title>Error 404 - Not Found!</title>
+    <title>Error 404 - Page Not Found!</title>
 </head>
 
 <style type="text/css">
@@ -20,7 +19,7 @@
         user-select: none;
 }
 
-    .button {
+    .buttonH {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 22px;
         padding: 10px 40px;
@@ -28,20 +27,41 @@
         text-decoration: none;
         background-color: rgb(153, 255, 0);
         align-content: center;
+        transition: 0.3s;
     }
 
-    .button:hover{
+    .buttonH:hover{
         background-color: black;
         color: rgb(153, 255, 0);
     }
 
+    .buttonP {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(0, 81, 255);
+        color: black;
+        align-content: center;
+        font-weight: bolder;
+        transition: 0.3s;
+    }
+
+    .buttonP:hover{
+        color: cyan;
+        background-color: rgb(26, 26, 26);
+        font-weight: bold;
+        text-decoration: none;
+    }
+
     #dont-know-this {
 
--webkit-animation: fadein 1s; 
-   -moz-animation: fadein 1s; 
+    -webkit-animation: fadein 1s; 
+    -moz-animation: fadein 1s; 
     -ms-animation: fadein 1s; 
-     -o-animation: fadein 1s; 
-        animation: fadein 1s;
+    -o-animation: fadein 1s; 
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
@@ -70,6 +90,7 @@ to   { opacity: 1; }
 }
 
 </style>
+    
 <body style="background-color: black;" id="dont-know-this">
 
     <header id="p1-header" style="font-size: 30px;">
@@ -77,11 +98,16 @@ to   { opacity: 1; }
         <h1>Error 404 : Page not found!</h1>
         Wait, seems like you're lost. <br><br><br>
         Let me help you :<br><br>
-        <button onclick="goBack()" class="button">Go Back</button>
+        <button onclick="goBackH()" class="buttonH">Go Back</button><br><br>
+
+    <div>
+        <span class="buttonP"><a href="index.html" style="text-decoration: none; color: white;">Or, Go back to Index</a></span>
+    </div>
+
     </header>
 
     <script>
-        function goBack() {
+        function goBackH() {
             window.history.back();
         }
     </script>
