@@ -217,6 +217,21 @@
         color:rgb(255, 128, 149);
         font-size: 32px;
     }
+    
+    
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #000000;
+        color: white;
+        padding: 8px;
+        z-index: 100;
+    }
+
+    .skip-link:focus {
+        top: 0;
+    }
 
     
    #dont-know-this {
@@ -256,6 +271,10 @@ to   { opacity: 1; }
 
 
 <body style="background-color: black;" id="dont-know-this">
+    
+    <a class="skip-link" href="#main">Skip to main</a>
+    
+<main id="main">
     
     <div id="dont-know-this">
     <p id="p1-dakshn" >
@@ -300,6 +319,7 @@ to   { opacity: 1; }
 
     </strong>
     </div>
+</main>
 
     <div class="navbar" id="dont-know-this">
         <span id="fader">
